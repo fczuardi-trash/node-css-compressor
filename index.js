@@ -229,3 +229,5 @@ YAHOO.compressor.cssmin = function (css, linebreakpos) {
     return css;
 
 };
+
+this.cssmin = YAHOO.compressor.cssmin;
